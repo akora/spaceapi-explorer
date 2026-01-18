@@ -64,17 +64,17 @@ Create a file called `spaceapi.json` on your web server:
 Upload to your web server so it's available at:
 
 ```text
-https://YOUR-DOMAIN.COM/spaceapi.json
+https://YOUR-DOMAIN/spaceapi.json
 ```
 
-**Replace `YOUR-DOMAIN.COM` with your actual domain name**, for example:
+**Replace `YOUR-DOMAIN` with your actual domain name**, for example:
 
 - `https://milklab.ie/spaceapi.json` (Irish hackerspace)
 - `https://ccc.de/spaceapi.json` (German hackerspace)
 - `https://tokyomakerspace.jp/spaceapi.json` (Japanese hackerspace)
 - `https://makerspace.local/spaceapi.json` (Local development)
 
-Test it: `curl https://YOUR-DOMAIN.COM/spaceapi.json`
+Test it: `curl https://YOUR-DOMAIN/spaceapi.json`
 
 ### **Step 3: Submit to Directory**
 
@@ -233,7 +233,7 @@ curl https://myhackerspace.org/spaceapi.json | jq '.space, .location, .state'
 ### **Validation Tools:**
 
 - **JSON Lint**: [jsonlint.com](https://jsonlint.com/)
-- **SpaceAPI Validator**: Online tools available
+- **SpaceAPI Validator**: [spaceapi.io/validator](https://spaceapi.io/validator/)
 - **Community Review**: Ask in IRC for feedback
 
 ## 🎉 Success
