@@ -234,7 +234,7 @@ curl https://myhackerspace.org/spaceapi.json | jq '.space, .location, .state'
 
 - **JSON Lint**: [jsonlint.com](https://jsonlint.com/)
 - **SpaceAPI Validator**: [spaceapi.io/validator](https://spaceapi.io/validator/)
-- **Community Review**: Ask in IRC for feedback
+- **Community Review**: [Ask on IRC #spaceapi](irc://irc.libera.chat/spaceapi) for feedback
 
 ## 🎉 Success
 
